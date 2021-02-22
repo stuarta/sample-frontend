@@ -21,4 +21,5 @@ map '/' do
       [ res.code, { "Content-Type" => "text/html" }, res.message ]
     end
   end
+  run served_by
 end
